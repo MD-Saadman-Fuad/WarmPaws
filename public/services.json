@@ -1,0 +1,74 @@
+[
+  {
+    "serviceId": 1,
+    "serviceName": "Winter Coat Fitting for Dogs",
+    "providerName": "PawCare Studio",
+    "providerEmail": "info@pawcare.com",
+    "price": 25,
+    "rating": 4.9,
+    "slotsAvailable": 4,
+    "description": "Custom coat fitting and warm outfit options to keep your dog comfortable in the cold.",
+    "image": "https://i.ibb.co.com/QFF93QJr/1.png",
+    "category": "Clothing"
+  },
+  {
+    "serviceId": 2,
+    "serviceName": "Winter Grooming & Paw Treatment",
+    "providerName": "CozyPets Grooming",
+    "providerEmail": "hello@cozypets.com",
+    "price": 30,
+    "rating": 4.8,
+    "slotsAvailable": 3,
+    "description": "Professional grooming with moisturizing paw balm and winter-safe shampoo.",
+    "image": "https://i.ibb.co.com/Nd4N2Mdx/2.png",
+    "category": "Grooming"
+  },
+  {
+    "serviceId": 3,
+    "serviceName": "Senior Pet Joint Health Check-up",
+    "providerName": "Dr. Vets Clinic",
+    "providerEmail": "vet@drpets.com",
+    "price": 55,
+    "rating": 4.7,
+    "slotsAvailable": 2,
+    "description": "A comprehensive winter-focused check-up for older pets, specializing in arthritis and joint pain management in cold weather.",
+    "image": "https://i.ibb.co.com/fVbHQ7R4/3.png",
+    "category": "Health"
+  },
+  {
+    "serviceId": 4,
+    "serviceName": "Cold Weather Dog Walking/Shorter Routes",
+    "providerName": "SnowPaws Walkers",
+    "providerEmail": "walk@snowpaws.com",
+    "price": 18,
+    "rating": 4.5,
+    "slotsAvailable": 5,
+    "description": "Temperature-controlled, shorter, and safer walking routes for dogs during icy or severe cold conditions.",
+    "image": "https://i.ibb.co.com/RGZHHVXm/4.png",
+    "category": "Outdoor"
+  },
+  {
+    "serviceId": 5,
+    "serviceName": "In-Home Winter Pet Sitting",
+    "providerName": "HomeCozy Sitters",
+    "providerEmail": "sitters@homecozy.com",
+    "price": 45,
+    "rating": 4.9,
+    "slotsAvailable": 1,
+    "description": "Overnight pet care in your home, ensuring a consistent warm environment and minimal cold exposure during holidays.",
+    "image": "https://i.ibb.co.com/hJr0zNyB/5.png",
+    "category": "Boarding"
+  },
+  {
+    "serviceId": 6,
+    "serviceName": "Indoor 'Cabin Fever' Training Session",
+    "providerName": "Agility Aces Training",
+    "providerEmail": "train@agilityaces.com",
+    "price": 40,
+    "rating": 4.6,
+    "slotsAvailable": 3,
+    "description": "Fun, mental stimulation and indoor exercise training sessions to keep active pets happy when outdoor time is limited.",
+    "image": "https://i.ibb.co.com/8LtzbVjy/6.png",
+    "category": "Training"
+  }
+]

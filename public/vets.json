@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Emily Parker",
+    "specialty": "Veterinary Dermatologist",
+    "experience": "8 years",
+    "bio": "Dr. Parker specializes in pet skin and coat care, ensuring your furry friends stay comfortable and healthy during dry winter months.",
+    "image": "https://i.ibb.co.com/JRrbkQPs/Emily1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Dr. Liam Chen",
+    "specialty": "Pet Nutrition Expert",
+    "experience": "10 years",
+    "bio": "Dr. Chen focuses on balanced diets and customized nutrition plans for pets to maintain energy and immunity during the winter season.",
+    "image": "https://i.ibb.co.com/M5sqQkkx/Liam.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Dr. Sophia Martinez",
+    "specialty": "Emergency and General Care",
+    "experience": "12 years",
+    "bio": "Dr. Martinez is known for her compassionate approach and expertise in emergency winter care, from frostbite prevention to seasonal illness treatment.",
+    "image": "https://i.ibb.co.com/xKtyPSkW/Sophia-1.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Dr. Noah Rahman",
+    "specialty": "Animal Behavior Specialist",
+    "experience": "7 years",
+    "bio": "Dr. Rahman helps pet owners manage behavior changes in pets during the cold season, ensuring emotional and physical well-being.",
+    "image": "https://i.ibb.co.com/WWpSgW72/noah1.webp"
+  }
+]

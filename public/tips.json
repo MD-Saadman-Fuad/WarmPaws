@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Keep Your Pets Warm Indoors",
+    "description": "During cold months, keep your pets inside where it's warm and cozy. Provide them with soft blankets and a comfortable resting area away from cold drafts.",
+    "image": "https://i.ibb.co.com/n6Gh1rC/winter-pet-cozy-home.webp"
+  },
+  {
+    "id": 2,
+    "title": "Protect Paws from Snow and Ice",
+    "description": "Use pet-safe balms or booties to protect your pet’s paws from salt, ice, and cold surfaces during walks. Always wipe their paws clean when returning home.",
+    "image": "https://i.ibb.co.com/8Ym1jJW/paw-protection.webp"
+  },
+  {
+    "id": 3,
+    "title": "Ensure Proper Nutrition",
+    "description": "Winter can increase energy needs for outdoor pets. Consult your vet to adjust their diet and ensure they’re getting the right balance of nutrients.",
+    "image": "https://i.ibb.co.com/b2r6jGH/winter-pet-food.webp"
+  },
+  {
+    "id": 4,
+    "title": "Limit Outdoor Time",
+    "description": "Shorten your pet’s outdoor playtime during extremely cold weather. Always supervise them and bring them back indoors before they get too cold.",
+    "image": "https://i.ibb.co.com/G5cQbJk/outdoor-pet-limit.webp"
+  }
+]
