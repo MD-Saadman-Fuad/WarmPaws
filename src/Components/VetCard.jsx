@@ -8,7 +8,7 @@ const VetCard = ({ vet }) => {
                     src={vet.image}
                     alt={vet.name} />
             </figure>
-            <div className="card-body">
+            <div className="card-body text-gray-700">
                 <h2 className="card-title">{vet.name}</h2>
                 <p>Specialty: {vet.specialty}</p>
                 <p>Experience: {vet.experience}</p>

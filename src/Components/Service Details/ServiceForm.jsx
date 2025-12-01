@@ -18,8 +18,8 @@ const ServiceForm = () => {
         });
     }
     return (
-        <div className=" bg-base-200 w-full">
-            <div className=" bg-base-100    shadow-2xl">
+        <div className=" bg-orange-200 w-4/5 mx-auto">
+            <div className=" bg-orange-100    shadow-2xl">
                 <div className="card-body ">
                     <fieldset className="fieldset gap-6">
                         <label className="label w-full">Name</label>

@@ -20,7 +20,7 @@ const Carousel = () => {
     ];
 
     return (
-        <div className='max-w-4xl mx-auto' data-aos="zoom-out" data-aos-duration="1200">
+        <div className='max-w-7xl mx-auto p-10' data-aos="zoom-out" data-aos-duration="1200">
             <Swiper
                 modules={[Navigation, Pagination, Autoplay, EffectFade]}
                 spaceBetween={0}
@@ -43,15 +43,15 @@ const Carousel = () => {
                 fadeEffect={{
                     crossFade: true
                 }}
-                className="rounded-lg overflow-hidden shadow-lg"
+                className="rounded-lg overflow-hidden shadow-lg h-64 md:h-96 lg:h-[600px]"
             >
                 {images.map((image, index) => (
                     <SwiperSlide key={index}>
-                        <div className="relative">
+                        <div className="relative h-full">
                             <img
                                 src={image.src}
                                 alt={image.alt}
-                                className="w-full h-120 object-cover"
+                                className="w-full h-full object-cover"
                                 loading={index === 0 ? "eager" : "lazy"}
                             />
                             <div className="absolute inset-0 bg-linear-to-t from-black/20 to-transparent"></div>

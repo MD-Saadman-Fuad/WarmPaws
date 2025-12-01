@@ -32,7 +32,7 @@ const ServiceDetailLayout = () => {
                 <Navbar></Navbar>
             </header>
 
-            <main className='p-3 max-w-5/6 flex flex-col mx-auto gap-6 items-center justify-between'>
+            <main className='pt-20 p-3 max-w-5/6 flex flex-col mx-auto gap-6 items-center justify-between'>
                 <ServiceDetail key={id} service={selectedService} />
                 <ServiceForm></ServiceForm>
                 <button className="btn btn-primary bg-orange-500"><Link to="/">Back to Home</Link></button>

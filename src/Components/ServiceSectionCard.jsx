@@ -18,21 +18,22 @@ const ServiceSectionCard = ({ service }) => {
 
     // console.log(service);
     return (
-        <div className="card bg-base-100 w-full max-w-sm mx-auto shadow-sm-xl border border-gray-300">
+        <div className="card bg-base-100 text-gray-700 w-full max-w-sm mx-auto shadow-sm-xl border border-gray-300">
             <figure>
                 <img
                     src={service.image}
                     alt={service.serviceName} />
             </figure>
             <div className="card-body">
-                <div className='flex items-center justify-between gap-4'>
+                <div className='flex items-center justify-between gap-4 '>
                     <h2 className="card-title">{service.serviceName}</h2>
                     <button className='btn btn-xs bg-orange-400 text-white'>{service.category}</button>
                 </div>
-                <div className='border-t'><span className="font-semibold text-lg">Provider: </span>{service.providerName}</div>
-                <p><span className="font-semibold text-lg">Description: </span>{service.description}</p>
+                <div className='border-t'>
+                    <span className="font-semibold text-lg">Provider: </span>{service.providerName}</div>
+                {/* <p><span className="font-semibold text-lg">Description: </span>{service.description}</p> */}
                 <p><span className="font-semibold text-lg">Rating: </span>{service.rating}</p>
-                <p><span className="font-semibold text-lg">Slots Available: </span>{service.slotsAvailable}</p>
+                {/* <p><span className="font-semibold text-lg">Slots Available: </span>{service.slotsAvailable}</p> */}
                 <div className="card-actions justify-end">
                     <p className='text-green-500'><span className="font-semibold text-lg">Price: </span>${service.price}</p>
                     <button className="btn btn-primary bg-orange-500 hover:bg-orange-800"><Link to={`/book-service/${service.serviceId}`}>Book Service</Link></button>

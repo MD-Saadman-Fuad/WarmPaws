@@ -14,7 +14,7 @@ const DailyTips = () => {
     }, []);
     return (
         <div
-            className='flex items-center gap-5 bg-base-200 p-3 w-4/6 mx-auto my-5 rounded-lg'
+            className='flex items-center gap-5 bg-base-200 p-3 max-w-7xl mx-auto my-10 rounded-lg'
             data-aos="slide-right"
             data-aos-duration="1000"
         >
