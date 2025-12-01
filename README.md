@@ -24,7 +24,7 @@
 
 ## 🌐 Live Demo
 
-[\[Live Link\]](https://warmpaws-app.netlify.app/)
+[\[Live Link\]](https://warmpaws-store.netlify.app/)
 
 ## ✨ Key Features
 
