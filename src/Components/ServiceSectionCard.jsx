@@ -24,7 +24,7 @@ const ServiceSectionCard = ({ service }) => {
                     src={service.image}
                     alt={service.serviceName} />
             </figure>
-            <div className="card-body">
+            <div className="card-body bg-orange-50 rounded-3xl shadow-2xl p-6">
                 <div className='flex items-center justify-between gap-4 '>
                     <h2 className="card-title">{service.serviceName}</h2>
                     <button className='btn btn-xs bg-orange-400 text-white'>{service.category}</button>

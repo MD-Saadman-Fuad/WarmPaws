@@ -99,12 +99,12 @@ const Login = () => {
     return (
         <>
             <div
-                className="card bg-base-100 w-full mx-auto max-w-sm shrink-0 shadow-2xl my-20"
+                className="card bg-orange-50 w-full mx-auto max-w-sm shrink-0 shadow-2xl my-20"
                 data-aos="fade-up"
                 data-aos-duration="800"
             >
                 <div className="card-body">
-                    <h1 className="text-3xl font-bold">Please Login!</h1>
+                    <h1 className="text-3xl text-orange-500 font-bold">Please Login!</h1>
                     <form onSubmit={handleLogIn}>
                         {/* onSubmit={handleLogIn} */}
                         <fieldset className="fieldset">

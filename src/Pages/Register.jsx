@@ -134,13 +134,13 @@ const Register = () => {
 
     return (
         <>
-            <div className='flex justify-center min-h-screen items-center'>
+            <div className='flex justify-center min-h-screen items-center '>
                 <div
-                    className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl"
+                    className="card bg-orange-50 w-full max-w-sm shrink-0 shadow-2xl"
                     data-aos="zoom-in"
                     data-aos-duration="800"
                 >
-                    <h1 className='font-semibold text-2xl text-center mt-4'>Register Your account</h1>
+                    <h1 className='font-semibold text-2xl text-orange-500 text-center mt-4'>Register Your account</h1>
                     <form className="card-body" onSubmit={handleRegister}>
                         {/* onSubmit={handleRegister} */}
                         <fieldset className="fieldset">
