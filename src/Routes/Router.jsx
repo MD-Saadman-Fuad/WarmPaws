@@ -57,7 +57,7 @@ export const router = createBrowserRouter([
     {
         path: 'book-service/:serviceId',
         loader: () => fetch('./services.json'),
-        element: <PrivateRoute><ServiceDetailLayout /></PrivateRoute>,
+        element: <ServiceDetailLayout />,
         hydrateFallbackElement: <Loading></Loading>,
     },
 ]);

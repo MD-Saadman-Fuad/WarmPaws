@@ -72,7 +72,7 @@
     "category": "Training"
   },
   {
-    "serviceId": 5,
+    "serviceId": 7,
     "serviceName": "Winter Coat Fitting for Dogs",
     "providerName": "PawCare Studio",
     "providerEmail": "info@pawcare.com",
@@ -84,7 +84,7 @@
     "category": "Clothing"
   },
   {
-    "serviceId": 6,
+    "serviceId": 8,
     "serviceName": "Winter Grooming & Paw Treatment",
     "providerName": "CozyPets Grooming",
     "providerEmail": "hello@cozypets.com",
