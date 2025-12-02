@@ -13,6 +13,7 @@ import ForgotPassword from "../Pages/ForgotPassword.jsx";
 import PrivateRoute from "./PrivateRoute.jsx";
 import ServiceDetailLayout from "../Layouts/ServiceDetailLayout.jsx";
 import Loading from "../Pages/Loading.jsx";
+import Error from "../Pages/Error.jsx";
 
 export const router = createBrowserRouter([
     {
@@ -60,4 +61,8 @@ export const router = createBrowserRouter([
         element: <ServiceDetailLayout />,
         hydrateFallbackElement: <Loading></Loading>,
     },
+    {
+        path: '*',
+        Component: Error,
+    }
 ]);
